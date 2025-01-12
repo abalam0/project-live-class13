@@ -1,0 +1,609 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+  }
+
+
+/* start of header part */
+header{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F4F6;
+    align-items: center;
+    padding: 30px 35px;
+
+}
+
+header .logo-link{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header nav a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #404955;
+}
+  
+
+ 
+header .contact a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 16px;
+    background-color: blue;
+    color: #F3F4F6;
+    border-radius: 8px
+}
+
+/* end of header part */
+
+/* start of hero part */
+ 
+.hero-section{
+    max-width: 1440px;  
+    background-color: #F9FAFB; 
+    margin: 0 auto;  
+}
+
+
+.hero-part{
+display: flex; 
+width: 90%;
+margin: 0 auto;
+justify-content: space-evenly;
+gap: 10px;
+}
+
+.hero-part .left-part{
+width: 50%;
+margin: 40px 0px;
+align-content: center;
+}
+
+
+
+.hero-part .left-part h1{
+    font-size: 50px;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+
+.hero-part span{
+    font-size: 112px;
+    font-weight: 700;
+    color: blue;
+}
+
+
+.left-part p{
+    font-size: 21px;
+    color: #7d8085;
+}
+
+
+.links {
+    padding-top: 30px;
+}
+.left-part .links a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+
+
+.links #get{
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+}
+.hero-part .right-part{
+position: relative;
+width:550px;
+height: 350px;
+margin: 40px 0px;
+}
+
+.hero-part .right-part img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* end of hero part */
+
+/* start of section1 */
+
+.section1{
+    margin: 0 auto;
+    padding-top: 120px;
+    max-width: 1440px;
+}
+
+.left-part .uptext{
+    padding-bottom: 20px;
+}
+
+.hero-part P{
+    font-size: 19px;
+}
+
+.section1 .experience{
+    top: 0;
+    transform: translate(-110px ,-70px);
+    position: absolute;
+    background-color: rgb(0, 161, 73);
+    color: white;
+    padding: 10px 25px 40px;
+    border-radius: 0px 100px 0px 100px;   
+}
+
+.experience h2{
+    font-size: 35px;
+    padding-right: 20px;
+}
+
+.experience p{
+    padding-top: 28px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* end of section1 */
+ 
+/* start of section 2 */
+
+.section2{
+    margin: 0 auto;
+    max-width: 1440px;  
+    margin-top:150px;
+    background-color: #F3F4F6;
+}
+
+.services-awards{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.services {
+    padding-top: 160px;
+}
+
+.services .texts{
+    text-align: center;
+}
+
+.services .texts h3{
+    font-size: 50px;
+    color: blue;
+}
+
+.texts p{
+    margin: 20px 150px;
+    font-size: 20px;
+    color: #7d8085;
+}
+
+
+/* start of course part */
+
+.services .courses{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courses .course1{
+    padding: 20px;
+    width: 344px;
+    text-align: center;
+    background-color: white;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.course1 img{
+    padding: 10px 0px;
+}
+
+
+.course1 h4{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.course1 p{
+    padding: 10px 0px;
+    color: #595b5f;
+    font-size: 18px;
+}
+
+
+.course1 p{
+    padding: 10px 0px;
+}
+
+
+.course1 p{
+    padding: 10px 0px;
+}
+
+
+.course1 p{
+    padding: 10px 0px;
+}
+
+/* end course part */
+
+/*  starts awards part*/
+.awards{
+    width: 88%;
+    position: absolute;
+    display: flex;
+    background-color: rgb(17, 196, 196);
+    justify-content: space-around;
+    border-radius: 9999px;
+    padding: 30px;
+    top: 0;
+    transform: translate(75px,-135px);
+}
+
+
+.award1{
+    text-align: center;
+}
+
+
+.awards img{
+    text-align: center;
+    width: 70px;
+}
+
+.awards h5{
+    font-size: 48px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.awards p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* end of section 2 */
+
+/* start of section 3 */
+
+.section3{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+ .section3 .mentors{
+    max-width: 1440px;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text h6{
+    padding-top: 80px;
+    font-size: 60px;
+    color: blue;
+}
+
+.text p{
+    padding: 20px;
+    font-size: 20px;
+    color: #6d6f72;
+}
+.text-mentors .text{
+    text-align: center;
+}
+.text-mentors .mentor1{
+  background-color: #F3F4F6;
+  text-align: center;
+  margin: 16px;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.mentor1 .alex-text{
+    color: #7d8085;
+    padding: 10px 0px 30px;
+}
+
+.mentor1 h4{
+    font-weight: 700;
+}
+
+.mentor1 .name p{
+    color: #7d8085;
+}
+
+/* end of section 3 */
+
+
+/* start of section 33 */
+
+.section33{
+    background-color: #f7f7f7;
+    padding: 90px 0px 90px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.latest-uptext{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.latest-uptext h3{
+    color: blue;
+    padding-bottom: 20px;
+    font-size:45px;
+    text-align: center;
+}
+
+
+.all-latest{
+    gap: 30px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.all-latest .latest1{
+    width: 400px;
+    padding: 25px;
+    background-color:#ffffff;
+    border-radius: 8px;
+}
+
+.all-latest img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.all-latest p{
+    padding-bottom: 30px;
+    color: #6d6f72;
+}
+
+.all-latest a{
+    text-decoration: none;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* end of section 33 */
+
+/* start of section4  */
+
+
+.section4{
+    margin: 0 auto;
+    max-width: 1440px;
+    margin-bottom: 90px;
+}
+
+.section4 .text-get{
+    margin: 0 auto;
+    width: 72%;
+    text-align: center;
+}
+
+.text-get h1{
+    padding-top: 120px;
+    font-size: 50px;
+    color: blue;
+}
+
+.text-get p{
+    padding: 30px 0px;
+    font-size: 20px;
+    color: #6d6f72;
+}
+
+form{
+    width: 72%;
+    margin: 0 auto;
+}
+
+form input{
+    padding-left: 10px;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgb(197, 193, 193);
+    background-color: white;
+}
+
+form .flname{
+    display: flex;
+    gap: 8px;
+}
+
+
+form .block {
+    border-radius: 4px;
+    border: 1px solid rgb(197, 193, 193);
+    outline: none;
+    margin: 8px 0px;
+    width: 100%;
+}
+
+textarea{
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #6d6f72;
+}
+
+
+form button{
+    height: 40px;
+    background-color: blue;
+    color: aliceblue;
+}
+
+/* end of section 4 */
+/* start of footer section */
+
+footer{
+    padding: 80px 0px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #F3F4F6;
+}
+
+.footer-body{
+    justify-content: space-between;
+    display: flex;
+    width: 72%;
+    margin: 0 auto;
+}
+
+.footer-body h6{
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.footer-body .link a{
+    text-align: center;
+    color: #6d6f72;
+    font-size: 18px;
+    line-height: 1.2;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* social icons css */
+
+.socialicon {
+    align-content: center;
+    gap: 2%;
+}
+
+
+.socialicon a{
+    text-decoration: none;
+    padding: 4px;
+    font-size:14px;
+    margin: 10px;
+}
+
+
+.facebook-icon {
+    font-size: 24px;  
+    background-color: white;               /* Size of the icon */
+    color: #1877f2;                  /* Facebook blue color */
+    transition: color 0.4s ease;
+    border-radius: 80px;
+    box-shadow: 0px 1px 3px 0px black;
+}
+.twitter-icon {
+    font-size: 20px;         
+    background-color: white;
+    color: rgb(88, 96, 170);  
+    transition: color 0.4s ease ; 
+    border-radius: 80px;
+    box-shadow: 0px 1px 3px 0px black;               
+}
+.instagram-icon {
+    font-size: 20px;        
+    background-color: white;
+    color: red;                
+    transition: color 0.4s ease;
+    border-radius: 80px;
+    box-shadow: 0px 1px 3px 0px black;
+}
+
+
+.linkedin-icon{
+    font-size: 20px;        
+    background-color: white;
+    transition: color 0.4s ease;
+    border-radius: 80px;
+    box-shadow: 0px 1px 3px 0px black;
+}
+
+
+/* end css of social icons */
+
+.button p{
+    font-size: 20px;
+    color: #595b5f;
+}
+.input-btn{
+    margin-top: 12px;
+    position: relative;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.input-btn input{
+    outline: none;
+    padding-left: 10px;
+    background-color: white;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 8px 0px 0px 8px;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+}
+
+.input-btn button{
+    background-color: blue;
+    color: aliceblue;
+    border: 1px solid rgb(143, 143, 143);
+    width: 30%;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.providedby{
+    text-align: center;
+    color: #595b5f;
+    font-size: 18px;
+    padding-top: 60px;
+}
